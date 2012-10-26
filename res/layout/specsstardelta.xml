@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text11_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="MOTOR RATING(HP)" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text12_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text21_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CONTACTOR STAR" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text22_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text31_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CONTACTOR LINE" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text32_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text41_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CONTACTOR DELTA" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text42_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text51_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="OVERLOAD RELAY TYPE" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text52_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text61_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="OVERLOAD RELAY RANGE(A)" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text62_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text71_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="FUSE(A)" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text72_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text81_"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="SWITCH DISCONNECTOR FUSE" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/text82_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

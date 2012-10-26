@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget37"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/widget45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prompt"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/buttondol"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/buttondolcontent" >
+        </Button>
+
+        <TextView
+            android:id="@+id/widget48"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+        </TextView>
+
+        <Button
+            android:id="@+id/buttonstardelta"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/buttonstardeltacontent" >
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/starting_prompt" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/headingcontent"
+        android:textSize="22sp" >
+    </TextView>
+
+</RelativeLayout>

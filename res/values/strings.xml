@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MOTOR SPECS</string>
+    <string name="dol_name">MOTOR SPECS - DOL STARTING</string>
+    <string name="stardelta_name">MOTOR SPECS - STAR/DELTA STARTING</string>
+    <string name="rating_prompt">Please select the rating of the Motor</string>
+    <string name="buttondolcontent">DOL</string>
+    <string name="buttonstardeltacontent">STAR/DELTA</string>
+    <string name="starting_prompt">Select the Type of Starting</string>
+    <string name="headingcontent">Type 2 Coordination</string>
+    <string name="buttongo">Go</string>
+    <string name="width1">100px</string>
+
+    <string-array name="rating_dol">
+        <item>0.125</item>
+        <item>0.16</item>
+        <item>0.2</item>
+        <item>0.25</item>
+    </string-array>
+    <string-array name="rating_stardelta">
+        <item>1</item>
+        <item>1.5</item>
+        <item>20</item>
+        <item>35</item>
+    </string-array>
+
+</resources>
